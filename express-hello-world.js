@@ -14,5 +14,5 @@ app.get('/time', (req, res)=>{
 
 console.log("port specified?", port);
 app.listen(port, ()=>{
-    console.log("listening on port specified.")
+    console.log(`listening on port ${port}.`)
 });
